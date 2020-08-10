@@ -6,6 +6,7 @@ body{
     transition-duration: .6s;
 }
 
+
 /* Navigation bar */
 .navbar{
     border-bottom: 1px solid grey;
@@ -15,27 +16,13 @@ body{
 .search-border{
     border: 1px solid #2e3091;
     border-radius: 15px 0 0 15px;
-    
+
 }
 .search-btn{
     border: 1px solid #2e3091;
     border-radius: 0 15px 15px 0;
 }
-.bottom :hover{
-    transition: ease-in;
-    transition-duration: .6s;
-    height: 5px;
-    padding-bottom: 5px;
-    border-top: solid rgba(160, 160, 165, 0.849);
-    border-radius: 2px;
-}
 
-.present {
-    height: 5px;
-    border-top: solid rgba(4, 30, 80, 0.644);
-    border-radius: 2px;
-    
-}
 /* End of navigation bar */
 
 /* Landing page */
@@ -109,6 +96,46 @@ body{
 }
 /* End of footer */
 
+/*------------------ Media query ---------------*/
+@media screen
+  and (min-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+
+    .bottom :hover{
+        transition: ease-in;
+        transition-duration: .6s;
+        height: 5px;
+        padding-bottom: 5px;
+        border-top: solid rgba(160, 160, 165, 0.849);
+        border-radius: 2px;
+    }
+
+    .present {
+        height: 5px;
+        border-top: solid rgba(4, 30, 80, 0.644);
+        border-radius: 2px;
+
+    }
+
+
+}
+@media screen
+  and (max-device-width: 1200px)
+  and (-webkit-min-device-pixel-ratio: 1){
+    .search-border{
+        border: 1px solid #2e3091;
+        border-radius: 15px 15px 15px 15px;
+
+    }
+    .search-btn{
+        border: 1px solid #2e3091;
+        border-radius: 15px 15px 15px 15px;
+        
+    }
+  }
+
+/*------------------End of  Media query ---------------*/
+
 /*--------------------------------------------- END OF GENERAL STRUCTURE --------------------------------------------- */
 
 /*--------------------------------------------- INDEX PAGE --------------------------------------------- */
@@ -128,9 +155,25 @@ body{
 /*--------------------------------------------- END OF GALLERY PAGE --------------------------------------------- */
 
 /*--------------------------------------------- NEWS PAGE --------------------------------------------- */
-.categories{
-    position: fixed;
+.box-sh{
+    padding: 0;
+    box-shadow: 0 0 0;
+    align-items: center;
 }
+.box-sh :hover{
+    transition: ease-in;
+    transition-duration: .6s;
+    box-shadow: 1px 1px 5px;
+    padding: 0.2rem;
+
+}
+@media screen
+  and (min-device-width: 1200px)
+  and (max-device-width: 1600px)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .categories{
+        position: fixed;
+    }
+  }
+
 /*--------------------------------------------- END OF NEWS PAGE --------------------------------------------- */
-
-
