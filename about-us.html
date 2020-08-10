@@ -19,7 +19,7 @@
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
-        
+
             <!-- navigation links -->
             <div class="collapse navbar-collapse mr-auto" id="navbarSupportedContent">
             <ul class="navbar-nav ml-auto">
@@ -32,17 +32,11 @@
                 <li class="nav-item bottom">
                 <a class="nav-link" href="our-programs.html">Our programs</a>
                 </li>
-                <li class="nav-item dropdown ">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Gallery
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item " href="gallery.html#photos">Photos</a>
-                    <a class="dropdown-item " href="gallery.html#videos">Videos</a>                 
-                </div>
+                <li class="nav-item bottom">
+                    <a class="nav-link" href="gallery.php" >Gallery</a>
                 </li>
                 <li class="nav-item bottom">
-                    <a class="nav-link" href="news.html">News</a>
+                    <a class="nav-link" href="news.php">News</a>
                 </li>
                 <li class="nav-item bottom">
                     <a class="nav-link" href="#Contact">Contact us</a>
@@ -53,7 +47,7 @@
                     <input class="form-control mr-sm-2 search-border" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-dark my-2 my-sm-0 search-btn" type="submit"><i class="fa fa-search search-icon" aria-hidden="true"></i></button>
                 </div>
-                
+
             </form>
             </div>
         </div>
@@ -65,9 +59,9 @@
           <div class="container about">
               <div class="row">
                   <div class="col-md-8">
-                    <div class="card bg-light mb-3 about-card" style="max-width: 540px;">
+                    <div class="card bg-light mb-3 about-card" style="width: 100%;">
                         <div class="row no-gutters">
-                        <div class="col-md-4 " style="text-align: center; margin-top: 20%;">
+                        <div class="col-md-4 " style="text-align: center; margin-top: 10%;">
                             <i class="fa fa-heartbeat fa-5x text-success" aria-hidden="true"></i>
                         </div>
                         <div class="col-md-8">
@@ -80,10 +74,10 @@
                     </div>
                   </div>
                   <div class="col-md-4">
-                    <div class="card bg-light mb-3 about-card" style="max-width: 15rem;">                    
+                    <div class="card bg-light mb-3 about-card" style="width: 100%;">
                         <div class="card-body" style="text-align: center;">
                             <i class="fa fa-eye fa-5x text-primary"  aria-hidden="true"></i>
-                            <h4 class="card-title">Our Vision:</h4>                                              
+                            <h4 class="card-title">Our Vision:</h4>
                         <p class="card-text">To have a fair, just, peaceful human right community for all.</p>
                         </div>
                     </div>
@@ -96,11 +90,18 @@
     <!-- Description section  -->
     <div class="container-fluid bg-light description ">
         <div class="container">
-            <h2 class=" tagline">MPI Kenya </h2>
-            <p>Mathare Peace Initiative Kenya (MPI-KENYA) is a Social Network Community Based organization based in Mathare. The organization works in Mathare and its environs and the coordination of its activities are conducted from Mathare 4B where the organization’s Offices are located. MPI-Kenya is registered in the Office of the Vice President Ministry of Home Affairs, Heritage and Sports, Department of Social Services. Currently the organization has a membership of thirty both males and female. The organization was formed in 2009 and was registered in 2012 it is among the pioneer peace organizations championing for peaceful community in a resource constrained settings. MPI Kenya is dedicated to build a community free from conflict and promote sustainable peace and ethnic tolerance among the different communities in informal settlements of Mathare. MPI Kenya is made up of motivated, energetic women and youth certain to become leaders and change makers.</p>
-            <br>
-            <p>MPI KENYA’s programs are designed from proper research and needs assessment. The interventions and mitigation efforts are tailored to promote peace MPI Kenya encourages a new model of leadership that represents a global vision of good governance towards all people regardless of the social, economic, political or cultural status. We encourage leadership that goes beyond the pursuit of self-interest and towards a moral vision of working collectively for the well-being and prosperity of all.</p>
-            <img class="img fluid" src="media/about18.jpg" alt="">
+          <div class="row">
+            <div class="col-lg-12">
+              <h2 class=" tagline">MPI Kenya </h2>
+              <p>Mathare Peace Initiative Kenya (MPI-KENYA) is a Social Network Community Based organization based in Mathare. The organization works in Mathare and its environs and the coordination of its activities are conducted from Mathare 4B where the organization’s Offices are located. MPI-Kenya is registered in the Office of the Vice President Ministry of Home Affairs, Heritage and Sports, Department of Social Services. Currently the organization has a membership of thirty both males and female. The organization was formed in 2009 and was registered in 2012 it is among the pioneer peace organizations championing for peaceful community in a resource constrained settings. MPI Kenya is dedicated to build a community free from conflict and promote sustainable peace and ethnic tolerance among the different communities in informal settlements of Mathare. MPI Kenya is made up of motivated, energetic women and youth certain to become leaders and change makers.</p>
+              <br>
+              <p>MPI KENYA’s programs are designed from proper research and needs assessment. The interventions and mitigation efforts are tailored to promote peace MPI Kenya encourages a new model of leadership that represents a global vision of good governance towards all people regardless of the social, economic, political or cultural status. We encourage leadership that goes beyond the pursuit of self-interest and towards a moral vision of working collectively for the well-being and prosperity of all.</p>
+            </div>
+            <div class="col-md-12">
+              <img class="img fluid" width="100%" src="media/about18.jpg" alt="">
+            </div>
+          </div>
+
         </div>
     </div>
     <!-- End of description section -->
@@ -126,8 +127,8 @@
                     <div class="col-lg-3 col-md-6">
                         <h4 class="visit">Visit us</h4>
                     </div>
-                </div>                
-            </div>         
+                </div>
+            </div>
         </div>
         <div class="socials navbar navbar-expand-lg text-white bg-dark">
             <p class="paddings">Sign up NewsLetter</p>
@@ -137,7 +138,7 @@
                         <input class="form-control mr-sm-2 " type="search" placeholder="info@mpi.kenya" aria-label="Search">
                         <button class="btn btn-primary my-2 my-sm-0 " type="submit">Subscribe</i></button>
                     </div>
-                    
+
                 </form>
             </div>
             <div id="Contact" class="ml-auto">
@@ -167,7 +168,7 @@
             </div>
         </div>
         <div class="bg-light">
-            <p class="text-primary note">© 2020 - All Rights Reserved - Mathare Peace Initiative</p>
+          <p class="text-primary note"><a class="nav-link" href="admin/login.php">© 2020 - All Rights Reserved - Mathare Peace Initiative</a></p>
             <br>
             <p class="text-secondary lil-note">Osuka Technologies</p>
         </div>
